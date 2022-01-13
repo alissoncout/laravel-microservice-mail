@@ -1,14 +1,13 @@
 # Curso Laravel Microservices com RabbitMQ (micro e-mail)
-[Saiba Mais Sobre o Curso](https://academy.especializati.com.br/curso/laravel-microservices-micro-emails)
 
 ## Requisitos
-Este micro e-mail depende do microservice 01, portanto, primeiramente subir o [microservice 01](https://github.com/especializati/laravel-microservice-01)
-E também depende do microservice 02, portanto, também subir o [microservice 02](https://github.com/especializati/laravel-microservice-02)
+Este micro e-mail depende do microservice 01, portanto, primeiramente subir o [microservice 01](https://github.com/alissoncout/laravel-microservice-01)
+E também depende do microservice 02, portanto, também subir o [microservice 02](https://github.com/alissoncout/laravel-microservice-02)
 
 ### Instalação
 Clonar Projeto
 ```sh
-git clone https://github.com/especializati/laravel-micro-email
+git clone https://github.com/alissoncout/laravel-microservice-mail
 ```
 
 Acessar o projeto
