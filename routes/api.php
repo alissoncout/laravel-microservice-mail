@@ -1,10 +1,10 @@
 <?php
 
-use App\Jobs\CompanyCreated;
+use App\Jobs\CompanyCreatedJob;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/teste', function () {
-    CompanyCreated::dispatch('testestestes@email.com')->onQueue('queue_email');
+    CompanyCreatedJob::dispatch('testestestes@email.com')->onQueue('queue_email');
 
     return response()->json(['message' => 'success']);
 });
